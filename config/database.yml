@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: journal_quetion_test
+  pool: 5
+  username:
+  password:
