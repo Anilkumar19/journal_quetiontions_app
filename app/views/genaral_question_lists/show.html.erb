@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Question:</strong>
+  <%= @genaral_question_list.question %>
+</p>
+
+<p>
+  <strong>Answer:</strong>
+  <%= @genaral_question_list.answer %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @genaral_question_list.category %>
+</p>
+
+<%= link_to 'Edit', edit_genaral_question_list_path(@genaral_question_list) %> |
+<%= link_to 'Back', genaral_question_lists_path %>
